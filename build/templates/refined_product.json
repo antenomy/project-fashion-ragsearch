@@ -1,0 +1,17 @@
+{
+  "id": "int (optional)",
+  "article_id": "str",
+  "name": "str",
+  "image_url": "str",
+  "price": "float",
+
+  "product_type": "str",
+  "product_group": "str (optional)",
+
+  "external_brand": "str (optional)",
+  "product_description": "str (optional)",
+  "json_description": "str (optional)",
+
+  "color": ["str", "... (optional list)"],
+  "size": ["str", "... (optional list)"]
+}

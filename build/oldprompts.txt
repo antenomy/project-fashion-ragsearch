@@ -1,0 +1,38 @@
+    oldprompt = f"""You are a smart query assistant.
+
+The user query below asks for multiple different clothing items. Your task is to split this query into 2 to 5 separate search queries. Each one must be about **only one clothing item**, stated clearly and concisely for product search (not fashion advice).
+
+Respond with exactly 2 to 5 **separate queries**, each on its own numbered line. Avoid merging items together.
+
+User query: "{input_query}"
+
+Respond now with one clothing item per line:
+"""
+    oldprompt = f"""You are a query rewriting assistant for conversational search of clothing.
+
+The user query below contains multiple clothing items. Your job is to rewrite it as **separate requests**, one for each **single clothing item**. Each query should be:
+
+- Focused only on **one clothing item** (e.g., "white tshirt") per query
+- Include all relevant **context** (like theme, colour, events) for each query
+- **Short and search-friendly**, not conversational
+
+Return 2 to 5 numbered queries, each on its own line.
+
+User query: "{input_query}"
+
+Rewritten search queries:
+"""
+#     prompt = f"""You are a smart query assistant.
+
+# Given the user query below, decide if it is clear and specific enough to use as-is for information retrieval, or if it should be split into multiple, diverse reformulated queries to improve retrieval coverage.
+
+# - If the query asks for one specific thing, respond with exactly one line starting with:
+#   Original query: <the original query>
+
+# - If the query is multi-faceted or asks for several things respond with exactly 2 to 5 diverse reformulated queries, each numbered on its own line.
+
+# User query: "{input_query}"
+
+# Respond now:
+
+# """

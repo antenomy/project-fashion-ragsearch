@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Loose Fit Denim blazer",
+    "price": "£54.99",
+    "description": "Denim blue, Solid colour",
+    "material": "Cotton, Denim",
+    "fit": "Loose fit",
+    "color": "Denim blue"
+  },
+  {
+    "name": "Undyed Denim Jacket",
+    "price": "£97.00",
+    "description": "Jacket sewn from an undyed cotton denim. Cut for a relaxed fit with yoke at both front and back. Detailed with a regular collar, denim shank buttons and slanted welt pockets. Two chest pockets with buttoned flaps. Buttoned cuffs.",
+    "material": "Cotton, Denim",
+    "fit": "Relaxed fit",
+    "color": "Ecru, Solid colour"
+  }
+]
