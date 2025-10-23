@@ -1,5 +1,5 @@
 {
-  description = "work-hm-project dev environment with playwright";
+  description = "project-fashion-ragsearch dev environment with playwright";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -22,7 +22,7 @@
             pkgs.stdenv.cc.cc
           ]}:$LD_LIBRARY_PATH
           export PYTHONNOUSERSITE="true"
-          echo "Activated work-hm-project dev environment with playwright."
+          echo "Activated project-fashion-ragsearch dev environment with playwright."
         '';
       };
     };
