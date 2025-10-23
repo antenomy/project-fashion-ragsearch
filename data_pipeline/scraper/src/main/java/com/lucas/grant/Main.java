@@ -103,7 +103,7 @@ public class Main {
         driver = new ChromeDriver(options);
         wait = new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS));
 
-        driver.get("https://productsearchtool.hmgroup.com");
+        driver.get("placeholder.productdomain.com");
         
         System.out.println("If you need to log in, please do so in the browser window.");
         System.out.println("Press Enter when you're ready to continue with the search...");
